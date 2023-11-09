@@ -1,0 +1,9 @@
+标题：长虹信息安全实验室磁盘软件加密代码提交日志
+说明：该软件的工程是基于VeraCrypt V1.26.7版本下面进行的二次开发，该软件的源码在GitHub上
+源码地址：https://github.com/veracrypt/VeraCrypt
+
+V1.0.0	jelly 	2023.11.09
+1、第一次初始化代码，源代码在src目录下，使用VS2010和VS2019进行的开发
+2、VS2010开发window的win32版本和x64版本
+3、VS2019开发arm64版本（目前我们不涉及）
+项目工程的开发环境部署文档见文档：doc\html\CompilingGuidelineWin.html
