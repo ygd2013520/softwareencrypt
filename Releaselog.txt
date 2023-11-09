@@ -7,3 +7,13 @@ V1.0.0	jelly 	2023.11.09
 2、VS2010开发window的win32版本和x64版本
 3、VS2019开发arm64版本（目前我们不涉及）
 项目工程的开发环境部署文档见文档：doc\html\CompilingGuidelineWin.html
+
+V1.0.1	jelly 	2023.11.09
+1、修改src/Common/Dlgcode.c文件，注释掉if (!IsOSAtLeast (WIN_10))
+2、修改cp的绝对路径为相对路径
+3、添加boot下面的文件
+
+
+
+
+

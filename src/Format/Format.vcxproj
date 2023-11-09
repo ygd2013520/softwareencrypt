@@ -402,7 +402,7 @@ copy $(TargetPath) "..\Debug\Setup Files\VeraCrypt Format-x64.exe" &gt;NUL:
       <AdditionalManifestFiles>Format.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) "..\Release\Setup Files\VeraCrypt Format-x64.exe"</Command>
+      <Command>copy x64\Release\VeraCryptFormat.exe  "..\Release\Setup Files\VeraCrypt Format-x64.exe"</Command>
     </PostBuildEvent>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>

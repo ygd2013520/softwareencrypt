@@ -33,27 +33,7 @@ src/wxdebug
 
 src/.vs
 
-src/Boot/Windows/obj
-src/Boot/Windows/Release
-src/Boot/Windows/Release_AES
-src/Boot/Windows/Release_AES_SHA2
-src/Boot/Windows/Release_Camellia
-src/Boot/Windows/Release_Camellia_SHA2
-src/Boot/Windows/Release_Serpent
-src/Boot/Windows/Release_Serpent_SHA2
-src/Boot/Windows/Release_SHA2
-src/Boot/Windows/Release_Twofish
-src/Boot/Windows/Release_Twofish_SHA2
-src/Boot/Windows/Rescue
-src/Boot/Windows/Rescue_AES
-src/Boot/Windows/Rescue_AES_SHA2
-src/Boot/Windows/Rescue_Camellia
-src/Boot/Windows/Rescue_Camellia_SHA2
-src/Boot/Windows/Rescue_Serpent
-src/Boot/Windows/Rescue_Serpent_SHA2
-src/Boot/Windows/Rescue_SHA2
-src/Boot/Windows/Rescue_Twofish
-src/Boot/Windows/Rescue_Twofish_SHA2
+
 
 src/Common/Debug
 src/Common/obj_driver_debug
@@ -108,3 +88,7 @@ src/Setup/PortableRelease
 
 src/SetupDLL/Debug
 src/SetupDLL/Release
+
+src/VeraCrypt.sdf
+src/VeraCrypt.suo
+src/ipch/

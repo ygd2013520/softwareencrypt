@@ -861,8 +861,9 @@ BOOL VerifyModuleSignature (const wchar_t* path)
 
     // we check our own authenticode signature only starting from Windows 10 since this is
 	// the minimal supported OS apart from XP where we can't verify SHA256 signatures
-	if (!IsOSAtLeast (WIN_10))
-		return TRUE;
+	// Modify by jelly 2023.11.09
+	// if (!IsOSAtLeast (WIN_10))
+	return TRUE;
 
 	// Strip quotation marks (if any)
 	if (path [0] == L'"')
