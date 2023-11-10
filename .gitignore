@@ -113,3 +113,6 @@ src/SetupDLL/Release
 src/VeraCrypt.sdf
 src/VeraCrypt.suo
 src/ipch/
+
+src/COMReg/Release
+src/Release
